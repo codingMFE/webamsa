@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMSA UMP</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/gambar/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/gambar/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/gambar/favicon-180.png">
+
+  <link rel="stylesheet" href="assets/style.css">
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Concert+One&family=Estonia&family=Keania+One&family=Nabla&family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Estonia&family=Keania+One&family=Nabla&family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar" id="navbar">
+  <div class="nav-container">
+
+    <!-- LEFT -->
+    <a href="#home" class="nav-left" aria-label="Back to Home">
+      <img src="assets/gambar/logoamsa.png" alt="Logo AMSA-UMP" class="nav-logo">
+      <div class="nav-brand">
+        <span class="nav-name">AMSA-Muhammadiyah Palembang</span>
+        <span class="nav-subname">AMSA-Universitas Muhammadiyah Palembang</span>
+      </div>
+    </a>
+
+    <!-- RIGHT -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#team" class="nav-link">Team</a>
+      <div class="nav-sub">
+        <a href="#division" class="nav-link">Division</a>
+        <button class="sub-toggle" type="button" aria-label="Show division list" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+        <div class="sub-menu">
+          <div class="sub-menu-inner">
+            <p class="sub-title">Choose a Division</p>
+          <a href="divisi.html?d=anr" class="sub-link" data-div="anr">
+            <img src="assets/gambar/anr.jpeg" alt="">
+            <span><strong>Academic &amp; Research</strong><small>AnR</small></span>
+          </a>
+          <a href="divisi.html?d=mnd" class="sub-link" data-div="mnd">
+            <img src="assets/gambar/WhatsApp Image 2026-04-30 at 23.35.49.jpeg" alt="">
+            <span><strong>Member &amp; Development</strong><small>MnD</small></span>
+          </a>
+          <a href="divisi.html?d=co" class="sub-link" data-div="co">
+            <img src="assets/gambar/co.jpeg" alt="">
+            <span><strong>Community Outreach</strong><small>CO</small></span>
+          </a>
+          <a href="divisi.html?d=ea" class="sub-link" data-div="ea">
+            <img src="assets/gambar/ea.jpeg" alt="">
+            <span><strong>External Affairs</strong><small>EA</small></span>
+          </a>
+          <a href="divisi.html?d=pnp" class="sub-link" data-div="pnp">
+            <img src="assets/gambar/pnp.jpeg" alt="">
+            <span><strong>Publication &amp; Promotion</strong><small>PnP</small></span>
+          </a>
+          <a href="divisi.html?d=fnp" class="sub-link" data-div="fnp">
+            <img src="assets/gambar/fnp.jpeg" alt="">
+            <span><strong>Finance &amp; Partnership</strong><small>FnP</small></span>
+          </a>
+          </div>
+        </div>
+      </div>
+      <a href="#event" class="nav-link">Event</a>
+      <a href="#location" class="nav-link">Location</a>
+      <a href="#join" class="nav-cta"><span>Join Us</span><i aria-hidden="true"></i></a>
+    </nav>
+
+    <!-- HAMBURGER -->
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+  <span class="nav-progress" id="navProgress" aria-hidden="true"></span>
+</header>
+
+
+<section id="home" class="home">
+
+  <div class="home-bg" aria-hidden="true"></div>
+  <span class="home-orb o1" aria-hidden="true"></span>
+  <span class="home-orb o2" aria-hidden="true"></span>
+  <span class="home-orb o3" aria-hidden="true"></span>
+
+  <div class="home-container">
+    <div class="fade-bawah"></div>
+
+    <!-- IMAGE -->
+    <div class="home-image">
+      <img src="assets/gambar/logoamsa.png" alt="AMSA">
+    </div>
+
+    <!-- TEXT -->
+    <div class="home-text">
+
+      <h3 class="fade-top">Welcome to our journey</h3>
+
+      <h1 id="typing-main"></h1>
+
+      <p id="typing-loop"></p>
+
+      <p class="home-desc home-step">The Asian Medical Students' Association chapter of Universitas Muhammadiyah Palembang, where future doctors learn, serve, and grow together.</p>
+
+      <div class="home-actions home-step">
+        <a href="#join" class="home-btn primary">
+          Join Us
+          <span class="join-cta-arrow" aria-hidden="true"><span></span><span></span><span></span></span>
+        </a>
+        <a href="#about" class="home-btn ghost">Explore AMSA-UMP</a>
+      </div>
+
+      <ul class="home-chips home-step">
+        <li><strong>2012</strong><span>Founded</span></li>
+        <li><strong>76+</strong><span>Members</span></li>
+        <li><strong>6</strong><span>Divisions</span></li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <a href="#about" class="home-scroll" aria-label="Scroll to About Us">
+    <span class="home-mouse"><i></i></span>
+    <small>Scroll</small>
+  </a>
+
+</section>
+
+ <section id="about" class="leader-section">
+  <div class="leader-container">
+
+    <!-- LEFT -->
+    <div class="leader-left">
+
+      <div class="leader-title">
+        <h4>AMSA-Muhammadiyah Palembang</h4>
+        <h2 class="script">Representative</h2>
+        <h3>2025/2026</h3>
+      </div>
+
+      <div class="leader-image" id="leaderStage" tabindex="0" aria-label="AMSA-UMP Representative">
+        <span class="lead-ring" aria-hidden="true"></span>
+        <img class="lead-logo" src="assets/gambar/logoamsa.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+        <span class="lead-spark s1" aria-hidden="true"></span>
+        <span class="lead-spark s2" aria-hidden="true"></span>
+        <span class="lead-spark s3" aria-hidden="true"></span>
+        <img class="lead-photo" src="assets/gambar/mb-7.png" alt="Dzaky Arva Rizy, AMSA-UMP Representative" loading="lazy" decoding="async">
+
+        <div class="fade-bottom"></div>
+      </div>
+
+      <h3 class="leader-name">Dzaky Arva Rizy</h3>
+      <p class="leader-role">Representative of AMSA-UMP</p>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="leader-right">
+      <p class="leader-kicker">A Letter from Our Representative</p>
+      <h2 class="script">Dear, People of Tomorrow!</h2>
+
+      <p>
+        Since it was officially established in 2012, the Asian Medical Students' Association
+        Universitas Muhammadiyah Palembang, known as AMSA-UMP, has produced
+        many alumni who excel in a wide range of fields.
+      </p>
+
+      <p>
+        AMSA-UMP is committed to giving its members superb and meaningful experiences.
+        Guided by AMSA's core philosophies, every program is designed to create impact.
+      </p>
+
+      <ul class="leader-values">
+        <li><span class="lv-dot"></span><span class="lv-word"><span class="spesial-name">K</span>nowledge</span></li>
+        <li><span class="lv-dot"></span><span class="lv-word"><span class="spesial-name">A</span>ction</span></li>
+        <li><span class="lv-dot"></span><span class="lv-word"><span class="spesial-name">F</span>riendship</span></li>
+      </ul>
+
+      <p>
+        Through this official website, we present our organization. We hope it
+        gives you a brief introduction to our values and activities.
+      </p>
+
+      <blockquote class="leader-quote">
+        <p>“Unifying Visionaries, Redefining Boundaries”</p>
+        <span>Viva AMSA!</span>
+      </blockquote>
+
+      <div class="leader-sign">
+        <span class="sign-name">Dzaky Arva Rizy</span>
+        <span class="sign-role">Representative, AMSA-UMP 2025/2026</span>
+      </div>
+
+      <a href="mainboard.html" class="mainboard-btn">
+        <span class="mainboard-btn-text">Executive Board</span>
+        <span class="mainboard-btn-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+    </div>
+
+  </div>
+</section >
+
+<!-- ================= OUR TEAM ================= -->
+<section id="team" class="team-section">
+
+  <!-- dekorasi cahaya melayang -->
+  <span class="team-blob blob-1" aria-hidden="true"></span>
+  <span class="team-blob blob-2" aria-hidden="true"></span>
+
+  <div class="team-header">
+    <p class="team-eyebrow">AMSA-UMP Board 2025/2026</p>
+    <h2 class="team-title">
+      <span class="spesial-name">O</span>ur
+      <span class="spesial-name">T</span>eam
+    </h2>
+    <p class="team-desc">
+      One team, one spirit. The people behind every AMSA-UMP program,
+      moving together through <strong>Knowledge</strong>, <strong>Action</strong>,
+      and <strong>Friendship</strong>.
+    </p>
+  </div>
+
+  <figure class="team-photo" id="teamPhoto" tabindex="0" role="button" aria-label="View the board photo in full size">
+    <div class="team-photo-inner">
+      <!-- SLIDER FOTO -->
+      <div class="team-slides" id="teamSlides">
+        <img class="team-slide is-active" src="assets/gambar/fotohome.jpeg" alt="AMSA-UMP big family photo with all members" data-caption="Our Big Family" loading="lazy" decoding="async">
+        <img class="team-slide" src="assets/gambar/team-slide-2.jpg" alt="AMSA-UMP board 2025/2026 group photo" data-caption="The Board 2025/2026" loading="lazy">
+      </div>
+
+      <!-- tombol kiri / kanan -->
+      <button class="team-nav prev" type="button" aria-label="Previous photo"><span></span><span></span></button>
+      <button class="team-nav next" type="button" aria-label="Next photo"><span></span><span></span></button>
+
+      <!-- nomor slide -->
+      <span class="team-counter" aria-live="polite"><strong id="teamCur">01</strong><span>/</span><span id="teamTotal">02</span></span>
+
+      <!-- cahaya mengikuti kursor -->
+      <span class="team-spotlight" aria-hidden="true"></span>
+
+      <!-- label muncul saat hover -->
+      <span class="team-zoom-hint">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+        View full size
+      </span>
+
+      <figcaption class="team-caption">
+        <span class="team-caption-title" id="teamCaption">Our Big Family</span>
+        <span class="team-caption-sub">Unifying Visionaries, Redefining Boundaries</span>
+      </figcaption>
+    </div>
+  </figure>
+
+  <!-- penanda jumlah foto + timer -->
+  <div class="team-dots" id="teamDots" role="tablist" aria-label="Choose photo"></div>
+
+  <div class="team-values">
+    <span><span class="spesial-name">K</span>nowledge</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span><span class="spesial-name">A</span>ction</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span><span class="spesial-name">F</span>riendship</span>
+  </div>
+</section>
+
+<!-- LIGHTBOX (foto layar penuh) -->
+<div class="team-lightbox" id="teamLightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="lightbox-scroller" id="lightboxScroller">
+    <img id="teamLightboxImg" src="assets/gambar/fotohome.jpeg" alt="AMSA-UMP team photo, full size" loading="lazy" decoding="async">
+  </div>
+  <p class="lightbox-hint">Swipe to see every board member</p>
+</div>
+
+<!-- =========================================================
+     SECTION PENGHARGAAN: TIM NASIONAL AMSA-INDONESIA
+     Foto orang (PNG tanpa background paling bagus) disimpan di:
+       assets/gambar/nasional-1.png, nasional-2.png, nasional-3.png
+     Nama & jabatan diganti di bagian "ORANG 1 / 2 / 3" di bawah.
+========================================================= -->
+<section id="national" class="national-section">
+  <div class="nt-beams" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="nt-confetti" id="ntConfetti" aria-hidden="true"></div>
+
+  <div class="nt-head fade-up">
+    <p class="nt-kicker"><span></span>Congratulations<span></span></p>
+    <h2 class="nt-title"><span class="spesial-name">O</span>ur <span class="spesial-name">N</span>ational <span class="spesial-name">P</span>ride</h2>
+    <p class="nt-sub">We are proud to congratulate our representatives who have been selected to serve in the <strong>AMSA-Indonesia National Team</strong>. Your hard work carries the name of AMSA-UMP to the national stage.</p>
+  </div>
+
+  <div class="nt-emblem fade-up" aria-hidden="true">
+    <span class="nt-emblem-ring"></span>
+    <span class="nt-emblem-ring r2"></span>
+    <img src="assets/gambar/amsa-ina-logo-white.png" alt="" loading="lazy" decoding="async">
+  </div>
+  <p class="nt-emblem-cap fade-up">AMSA-Indonesia National Team</p>
+
+  <div class="nt-grid">
+      <!-- ORANG 1: ganti foto, nama, dan jabatan nasional di sini -->
+      <article class="nt-card nt-reveal" tabindex="0" style="transition-delay:0s">
+        <div class="nt-stage">
+          <span class="nt-halo" aria-hidden="true"></span>
+          <span class="nt-ring" aria-hidden="true"></span>
+          <img class="nt-logo" src="assets/gambar/amsa-ina-logo-white.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="nt-photo" src="assets/gambar/nasional-1.png" alt="AMSA-UMP representative in the AMSA-Indonesia National Team" loading="lazy" decoding="async">
+          <span class="nt-ribbon">National Team</span>
+        </div>
+        <div class="nt-info">
+          <h3 class="nt-name">Cahyani Amelia Prayogo</h3>
+          <p class="nt-role">AMSA Elite Chairperson</p>
+          <p class="nt-from"><img src="assets/gambar/logoamsa.png" alt="" loading="lazy" decoding="async"><span class="nt-rep">Representing</span>AMSA-UMP</p>
+        </div>
+      </article>
+      <!-- ORANG 2: ganti foto, nama, dan jabatan nasional di sini -->
+      <article class="nt-card nt-reveal" tabindex="0" style="transition-delay:0.12s">
+        <div class="nt-stage">
+          <span class="nt-halo" aria-hidden="true"></span>
+          <span class="nt-ring" aria-hidden="true"></span>
+          <img class="nt-logo" src="assets/gambar/amsa-ina-logo-white.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="nt-photo" src="assets/gambar/nasional-2.png" alt="AMSA-UMP representative in the AMSA-Indonesia National Team" loading="lazy" decoding="async">
+          <span class="nt-ribbon">National Team</span>
+        </div>
+        <div class="nt-info">
+          <h3 class="nt-name">Raysha Maharani E.P</h3>
+          <p class="nt-role">AMSEP Officer</p>
+          <p class="nt-from"><img src="assets/gambar/logoamsa.png" alt="" loading="lazy" decoding="async"><span class="nt-rep">Representing</span>AMSA-UMP</p>
+        </div>
+      </article>
+      <!-- ORANG 3: ganti foto, nama, dan jabatan nasional di sini -->
+      <article class="nt-card nt-reveal" tabindex="0" style="transition-delay:0.24s">
+        <div class="nt-stage">
+          <span class="nt-halo" aria-hidden="true"></span>
+          <span class="nt-ring" aria-hidden="true"></span>
+          <img class="nt-logo" src="assets/gambar/amsa-ina-logo-white.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
+          <img class="nt-photo" src="assets/gambar/nasional-3.png" alt="AMSA-UMP representative in the AMSA-Indonesia National Team" loading="lazy" decoding="async">
+          <span class="nt-ribbon">National Team</span>
+        </div>
+        <div class="nt-info">
+          <h3 class="nt-name">Raditya Razani N</h3>
+          <p class="nt-role">FnP Team</p>
+          <p class="nt-from"><img src="assets/gambar/logoamsa.png" alt="" loading="lazy" decoding="async"><span class="nt-rep">Representing</span>AMSA-UMP</p>
+        </div>
+      </article>
+  </div>
+</section>
+
+  <section id="division" class="division-section">
+  <h2 class="section-title fade-up">
+    <span class="spesial-name">O</span>ur 
+    <span class="spesial-name">D</span>ivisions</h2>
+
+  <p class="division-sub fade-up">Six divisions, one mission. Hover or tap a card to meet the people behind it.</p>
+
+  <div class="division-wrapper div-flip-wrapper">
+
+    <a href="divisi.html?d=anr" class="div-flip animate fade-up delay-1" style="--div-color: #f4a259;" aria-label="Academic &amp; Research: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/anr.jpeg" alt="Academic &amp; Research logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">A</span>cademic &amp; <span class="spesial-name">R</span>esearch</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-1.png" alt="Tsurayya Fatinah Fasya Lubis" loading="lazy"></span>
+          <span class="div-head-name">Tsurayya Fatinah Fasya Lubis</span>
+          <span class="div-count"><strong>4</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+    <a href="divisi.html?d=mnd" class="div-flip animate fade-up delay-2" style="--div-color: #6ec3e0;" aria-label="Member &amp; Development: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/WhatsApp Image 2026-04-30 at 23.35.49.jpeg" alt="Member &amp; Development logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">M</span>ember &amp; <span class="spesial-name">D</span>evelopment</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-4.png" alt="M Fikriansyah Ekman" loading="lazy"></span>
+          <span class="div-head-name">M Fikriansyah Ekman</span>
+          <span class="div-count"><strong>7</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+    <a href="divisi.html?d=co" class="div-flip animate fade-up delay-3" style="--div-color: #e0566f;" aria-label="Community Outreach: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/co.jpeg" alt="Community Outreach logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">C</span>ommunity <span class="spesial-name">O</span>utreach</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-6.png" alt="Amanda Salsabila Nadia" loading="lazy"></span>
+          <span class="div-head-name">Amanda Salsabila Nadia</span>
+          <span class="div-count"><strong>7</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+    <a href="divisi.html?d=ea" class="div-flip animate fade-up delay-1" style="--div-color: #b69ad9;" aria-label="External Affairs: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/ea.jpeg" alt="External Affairs logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">E</span>xternal <span class="spesial-name">A</span>ffairs</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-2.png" alt="Rachel Namira Ramadhani" loading="lazy"></span>
+          <span class="div-head-name">Rachel Namira Ramadhani</span>
+          <span class="div-count"><strong>10</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+    <a href="divisi.html?d=pnp" class="div-flip animate fade-up delay-2" style="--div-color: #6d7fe0;" aria-label="Publication &amp; Promotion: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/pnp.jpeg" alt="Publication &amp; Promotion logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">P</span>ublication &amp; <span class="spesial-name">P</span>romotion</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-5.png" alt="Amelia" loading="lazy"></span>
+          <span class="div-head-name">Amelia</span>
+          <span class="div-count"><strong>5</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+    <a href="divisi.html?d=fnp" class="div-flip animate fade-up delay-3" style="--div-color: #f0c94a;" aria-label="Finance &amp; Partnership: view division">
+      <div class="div-flip-inner">
+
+        <!-- DEPAN -->
+        <div class="div-face div-front">
+          <span class="div-glow" aria-hidden="true"></span>
+          <img class="div-logo" src="assets/gambar/fnp.jpeg" alt="Finance &amp; Partnership logo" loading="lazy" decoding="async">
+          <span class="div-name"><span class="spesial-name">F</span>inance &amp; <span class="spesial-name">P</span>artnership</span>
+          <span class="div-flip-hint" aria-hidden="true">
+            <span class="hint-desktop">Hover me</span><span class="hint-mobile">Tap me</span>
+          </span>
+        </div>
+
+        <!-- BELAKANG -->
+        <div class="div-face div-back">
+          <span class="div-back-label">Head of Division</span>
+          <span class="div-head-photo"><img src="assets/gambar/ketua-3.png" alt="Azmia Iqlila" loading="lazy"></span>
+          <span class="div-head-name">Azmia Iqlila</span>
+          <span class="div-count"><strong>2</strong> Work Programs</span>
+          <span class="div-explore">Explore
+            <span class="div-explore-arrow" aria-hidden="true"><span></span><span></span></span>
+          </span>
+        </div>
+
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="stats" class="count-section difcount">
+
+  <div class="stats-head">
+    <p class="stats-kicker">AMSA-UMP in Numbers</p>
+    <h2 class="stats-title"><span class="spesial-name">O</span>ur <span class="spesial-name">J</span>ourney</h2>
+  </div>
+
+  <div class="count-container">
+
+    <div class="count-item count-year stat-card">
+      <span class="stat-shine" aria-hidden="true"></span>
+      <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/><path d="M4 9h16"/></svg></span>
+      <span class="count-eyebrow">Since</span>
+      <h3 class="stat-value"><span class="difcount-number" data-target="2012">0</span></h3>
+      <p>Year Founded</p>
+      <span class="stat-bar" aria-hidden="true"><span></span></span>
+      <span class="stat-note">Over a decade of AMSA spirit</span>
+    </div>
+
+    <div class="count-item count-year stat-card">
+      <span class="stat-shine" aria-hidden="true"></span>
+      <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.5c2.8 0 5 2.2 5 5"/></svg></span>
+      <span class="count-eyebrow">Together</span>
+      <h3 class="stat-value"><span class="difcount-number" data-target="76">0</span><span class="stat-suffix">+</span></h3>
+      <p>Active Members</p>
+      <span class="stat-bar" aria-hidden="true"><span></span></span>
+      <span class="stat-note">Future doctors growing together</span>
+    </div>
+
+    <div class="count-item count-year stat-card">
+      <span class="stat-shine" aria-hidden="true"></span>
+      <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="17" rx="3"/><path d="M9 3v3M15 3v3"/><path d="M8 12l2.5 2.5L16 9"/></svg></span>
+      <span class="count-eyebrow">Running</span>
+      <h3 class="stat-value"><span class="difcount-number" data-target="34">0</span></h3>
+      <p>Work Programs</p>
+      <span class="stat-bar" aria-hidden="true"><span></span></span>
+      <span class="stat-note">Across six active divisions</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <section id="event" class="event-section">
+  <h2 class="event-title fade-up">
+    <span class="spesial-name">O</span>ur 
+     <span class="spesial-name">E</span>vents</h2>
+
+
+
+  <div class="event-container">
+    
+    <!-- EVENT: AMSA UMP x AMSA UNSRI (proker EA) -->
+    <article class="event-card ev-rich" tabindex="0" aria-label="AMSA UMP x AMSA UNSRI, emergency first aid education for school students, tap or hover for details">
+
+      <!-- logo divisi, muncul di atas kotak saat hover / tap -->
+      <a class="ev-div-logo" href="divisi.html?d=ea" aria-label="External Affairs division">
+        <span class="ev-div-ring" aria-hidden="true"></span>
+        <img src="assets/gambar/ea.jpeg" alt="External Affairs logo" loading="lazy" decoding="async">
+      </a>
+
+      <div class="ev-media">
+        <img src="assets/gambar/event-amsa-unsri.jpg" alt="School students practicing fracture first aid with AMSA UMP and AMSA UNSRI" loading="lazy">
+
+        <span class="ev-date"><strong>MAR</strong><small>2026</small></span>
+
+        <span class="ev-badge">EA · Collaboration</span>
+
+        <!-- detail yang naik saat hover / tap -->
+        <div class="ev-detail">
+          <p class="ev-detail-div">External Affairs</p>
+          <p class="ev-detail-kicker">First Aid for Students</p>
+          <p class="ev-detail-text">
+            Together with AMSA-UNSRI, we taught school students emergency first aid for
+            fractures, from bandaging to applying an arm sling.
+          </p>
+          <ul class="ev-chips">
+            <li>Student Education</li>
+            <li>Inter-chapter Collab</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ev-body">
+        <h3>AMSA UMP <span class="ev-x">×</span> AMSA UNSRI</h3>
+        <p>Emergency first-aid education for school students, together with AMSA Universitas Sriwijaya.</p>
+        <span class="ev-hint">
+          <span class="ev-hint-desktop">Hover to explore</span>
+          <span class="ev-hint-mobile">Tap to explore</span>
+          <span class="ev-hint-arrow" aria-hidden="true"><span></span><span></span></span>
+        </span>
+      </div>
+    </article>
+
+    <!-- EVENT: LAT (proker AnR) -->
+    <article class="event-card ev-rich ev-anr" tabindex="0" aria-label="LAT, Local Academic Training, tap or hover for details">
+
+      <a class="ev-div-logo" href="divisi.html?d=anr" aria-label="Academic &amp; Research division">
+        <span class="ev-div-ring" aria-hidden="true"></span>
+        <img src="assets/gambar/anr.jpeg" alt="Academic &amp; Research logo" loading="lazy" decoding="async">
+      </a>
+
+      <div class="ev-media">
+        <img src="assets/gambar/event-lat.jpg" alt="AMSA-UMP members and participants of LAT Stabilize &amp; Save first aid training" loading="lazy">
+
+        <span class="ev-date"><strong>JUN</strong><small>2026</small></span>
+
+        <span class="ev-badge">AnR · Training</span>
+
+        <div class="ev-detail">
+          <p class="ev-detail-div">Academic &amp; Research</p>
+          <p class="ev-detail-kicker">Stabilize &amp; Save</p>
+          <p class="ev-detail-text">
+            Our first aid training, "Stabilize &amp; Save", where members learned how to
+            stabilize a patient and respond quickly in an emergency.
+          </p>
+          <ul class="ev-chips">
+            <li>Emergency Care</li>
+            <li>Hands-on Practice</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ev-body">
+        <h3>LAT <span class="ev-x">·</span> Local Academic Training</h3>
+        <p>An emergency first-aid training to equip members with practical life-saving skills.</p>
+        <span class="ev-hint">
+          <span class="ev-hint-desktop">Hover to explore</span>
+          <span class="ev-hint-mobile">Tap to explore</span>
+          <span class="ev-hint-arrow" aria-hidden="true"><span></span><span></span></span>
+        </span>
+      </div>
+    </article>
+
+    <!-- EVENT: EOTY (proker CO) -->
+    <article class="event-card ev-rich ev-co" tabindex="0" aria-label="EOTY, Event of The Year, tap or hover for details">
+
+      <a class="ev-div-logo" href="divisi.html?d=co" aria-label="Community Outreach division">
+        <span class="ev-div-ring" aria-hidden="true"></span>
+        <img src="assets/gambar/co.jpeg" alt="Community Outreach logo" loading="lazy" decoding="async">
+      </a>
+
+      <div class="ev-media">
+        <img src="assets/gambar/event-eoty.jpg" alt="AMSA-UMP members and school students together after the EOTY community service" loading="lazy">
+
+        <span class="ev-date"><strong>APR</strong><small>2026</small></span>
+
+        <span class="ev-badge">CO · Community Service</span>
+
+        <div class="ev-detail">
+          <p class="ev-detail-div">Community Outreach</p>
+          <p class="ev-detail-kicker">Health for Students</p>
+          <p class="ev-detail-text">
+            Our flagship community service of the year: AMSA-UMP ran health screenings
+            and health education sessions for school students.
+          </p>
+          <ul class="ev-chips">
+            <li>Health Screening</li>
+            <li>Health Education</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ev-body">
+        <h3>EOTY <span class="ev-x">·</span> Event of The Year</h3>
+        <p>Community service with health screening and education for school students.</p>
+        <span class="ev-hint">
+          <span class="ev-hint-desktop">Hover to explore</span>
+          <span class="ev-hint-mobile">Tap to explore</span>
+          <span class="ev-hint-arrow" aria-hidden="true"><span></span><span></span></span>
+        </span>
+      </div>
+    </article>
+  </div>
+
+  <button class="event-btn prev">&#10094;</button>
+</section>
+
+<section id="location" class="our-location">
+  <div class="location-container">
+
+    <!-- LEFT -->
+    <div class="location-text fade-up">
+      <p class="loc-kicker">Find Us</p>
+      <h2><span class="spesial-name">O</span>ur
+        <span class="spesial-name">L</span>ocation</h2>
+      <p>
+        We are based at Universitas Muhammadiyah Palembang,
+        a strategic and easily accessible location for all of our academic and organizational activities.
+      </p>
+
+      <ul class="loc-info">
+        <li>
+          <span class="loc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          </span>
+          <span><strong>Campus</strong>Universitas Muhammadiyah Palembang, South Sumatra</span>
+        </li>
+        <li>
+          <span class="loc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 10l9-6 9 6"/><path d="M5 10v9h14v-9"/><path d="M10 19v-5h4v5"/></svg>
+          </span>
+          <span><strong>Home Base</strong>Faculty of Medicine, UMP</span>
+        </li>
+        <li>
+          <span class="loc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+          </span>
+          <span><strong>Say Hello</strong><a href="mailto:amsaump@gmail.com">amsaump@gmail.com</a></span>
+        </li>
+      </ul>
+
+      <div class="loc-actions">
+        <a class="loc-btn primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Universitas%20Muhammadiyah%20Palembang" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>
+          Get Directions
+        </a>
+        <a class="loc-btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Universitas%20Muhammadiyah%20Palembang" target="_blank" rel="noopener">
+          Open in Maps
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT (MAP) -->
+    <div class="location-map fade-up">
+      <iframe
+        src="https://www.google.com/maps?q=Universitas%20Muhammadiyah%20Palembang&output=embed"
+        loading="lazy" title="Map of Universitas Muhammadiyah Palembang">
+      </iframe>
+
+      <!-- label melayang di atas peta -->
+      <div class="map-tag" aria-hidden="true">
+        <span class="map-pulse"></span>
+        <img src="assets/gambar/logoamsa.png" alt="" loading="lazy" decoding="async">
+        <span><strong>AMSA-UMP</strong><small>We're here!</small></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="join" class="join-section">
+  <div class="join-container">
+
+    <!-- LEFT: INSTAGRAM -->
+    <div class="ig-card fade-up">
+
+      <div class="ig-head">
+        <span class="ig-avatar"><img src="assets/gambar/logoamsa.png" alt="AMSA-UMP" loading="lazy" decoding="async"></span>
+        <span class="ig-user"><strong>amsaump</strong><small>AMSA Universitas Muhammadiyah Palembang</small></span>
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-follow">Follow</a>
+      </div>
+
+      <!-- mosaik foto kegiatan -->
+      <div class="ig-grid">
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-tile big">
+          <img src="assets/gambar/team-pengurus.jpg" alt="AMSA-UMP board" loading="lazy">
+        </a>
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-tile">
+          <img src="assets/gambar/event-eoty.jpg" alt="EOTY community service" loading="lazy">
+        </a>
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-tile">
+          <img src="assets/gambar/event-lat.jpg" alt="LAT Stabilize &amp; Save first aid training" loading="lazy">
+        </a>
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-tile">
+          <img src="assets/gambar/event-amsa-unsri.jpg" alt="AMSA UMP x AMSA UNSRI" loading="lazy">
+        </a>
+      </div>
+
+      <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="ig-btn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+        See more on Instagram
+      </a>
+    </div>
+
+    <!-- RIGHT: JOIN -->
+    <div class="join-right fade-up">
+      <p class="join-kicker">Open for Future Doctors</p>
+      <h2><span class="spesial-name">J</span>oin <span class="spesial-name">W</span>ith <span class="spesial-name">U</span>s</h2>
+      <p>
+        Be part of our community and grow your potential with us.
+      </p>
+
+      <ul class="join-perks">
+        <li>
+          <span class="perk-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 5h7a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4z"/><path d="M20 5h-7a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h7z"/></svg>
+          </span>
+          <span><strong>Knowledge</strong>Scientific talks, research, and trainings.</span>
+        </li>
+        <li>
+          <span class="perk-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>
+          </span>
+          <span><strong>Action</strong>Community service that makes a real impact.</span>
+        </li>
+        <li>
+          <span class="perk-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.5c2.8 0 5 2.2 5 5"/></svg>
+          </span>
+          <span><strong>Friendship</strong>A network of medical students across Asia.</span>
+        </li>
+      </ul>
+
+      <div class="join-actions">
+        <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" class="btn primary join-cta">
+          Join Now
+          <span class="join-cta-arrow" aria-hidden="true"><span></span><span></span><span></span></span>
+        </a>
+        <span class="join-proof">
+          <span class="join-avatars" aria-hidden="true">
+            <img src="assets/gambar/ketua-3.png" alt="" loading="lazy" decoding="async"><img src="assets/gambar/ketua-4.png" alt="" loading="lazy" decoding="async"><img src="assets/gambar/ketua-2.png" alt="" loading="lazy" decoding="async">
+          </span>
+          <span><strong>76</strong> active members</span>
+        </span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION VIDEO
+     Taruh file video di: assets/video/amsa-video.mp4
+     (poster/cover opsional di: assets/video/amsa-cover.jpg)
+     Kalau nama file beda, ganti di bagian <source src="..."> di bawah.
+========================================================= -->
+<section id="video" class="video-section">
+  <span class="vid-glow g1" aria-hidden="true"></span>
+  <span class="vid-glow g2" aria-hidden="true"></span>
+
+  <div class="vid-head fade-up">
+    <p class="vid-kicker">Watch Our Story</p>
+    <h2><span class="spesial-name">O</span>ur <span class="spesial-name">J</span>ourney in <span class="spesial-name">M</span>otion</h2>
+    <p class="vid-sub">A glimpse of the moments, people, and spirit that make AMSA-UMP who we are.</p>
+  </div>
+
+  <div class="vid-stage fade-up" id="vidStage">
+    <div class="vid-frame">
+      <video id="amsaVideo" playsinline muted loop preload="metadata" poster="assets/video/amsa-cover.jpg">
+        <source src="assets/video/amsa-video.mov" type="video/mp4">
+      </video>
+
+      <!-- tampil kalau video belum ada -->
+      <div class="vid-empty" aria-hidden="true">
+        <span class="vid-empty-play"><i></i></span>
+        <strong>Our video is coming soon</strong>
+        <small>Stay tuned for the story of AMSA-UMP</small>
+      </div>
+
+      <!-- ajakan menyalakan suara (kalau browser belum mengizinkan) -->
+      <button class="vid-tap" type="button" id="vidTap">
+        <span class="vid-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        Tap to turn on sound
+      </button>
+
+      <div class="vid-bar">
+        <button class="vid-btn" type="button" id="vidPlay" aria-label="Pause video">
+          <span class="ic-pause" aria-hidden="true"><i></i><i></i></span>
+          <span class="ic-play" aria-hidden="true"></span>
+        </button>
+        <div class="vid-progress" id="vidProgress" role="slider" aria-label="Video progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+          <span id="vidFill"></span>
+        </div>
+        <span class="vid-time" id="vidTime">0:00</span>
+        <button class="vid-btn vid-sound" type="button" id="vidSound" aria-label="Turn sound on">
+          <span class="vid-eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="vid-mute-x" aria-hidden="true"></span>
+        </button>
+        <button class="vid-btn" type="button" id="vidFull" aria-label="Full screen">
+          <span class="ic-full" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <!-- BRAND -->
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/gambar/logoamsa.png" alt="Logo AMSA-UMP" loading="lazy" decoding="async">
+          <div>
+            <h3>AMSA-UM Palembang</h3>
+            <span>Asian Medical Students' Association</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          <span class="spesial-name">K</span>nowledge ·
+          <span class="spesial-name">A</span>ction ·
+          <span class="spesial-name">F</span>riendship
+        </p>
+      </div>
+
+      <!-- LINKS -->
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#division">Division</a></li>
+          <li><a href="#event">Event</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Universitas Muhammadiyah Palembang</li>
+          <li><a href="mailto:amsaump@gmail.com">amsaump@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener">@amsaump</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" aria-label="Instagram AMSA-UMP">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+          </a>
+          <a href="mailto:amsaump@gmail.com" aria-label="Email AMSA-UMP">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 AMSA-Muhammadiyah Palembang. All rights reserved.</p>
+      <p class="footer-credit">Designed by <span>FIKRI</span></p>
+      <p class="footer-viva">Viva AMSA!</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+  
+
+</body>
+</html>
