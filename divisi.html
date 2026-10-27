@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Division | AMSA UMP</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/gambar/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/gambar/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/gambar/favicon-180.png">
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/divisi.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body class="dv-page">
+
+  <header class="navbar" id="navbar">
+  <div class="nav-container">
+
+    <!-- LEFT -->
+    <a href="webamsa.html#home" class="nav-left" aria-label="Back to Home">
+      <img src="assets/gambar/logoamsa.png" alt="Logo AMSA-UMP" class="nav-logo">
+      <div class="nav-brand">
+        <span class="nav-name">AMSA-Muhammadiyah Palembang</span>
+        <span class="nav-subname">AMSA-Universitas Muhammadiyah Palembang</span>
+      </div>
+    </a>
+
+    <!-- RIGHT -->
+    <nav class="nav-menu" id="navMenu">
+      <a href="webamsa.html#home" class="nav-link">Home</a>
+      <a href="webamsa.html#about" class="nav-link">About Us</a>
+      <a href="webamsa.html#team" class="nav-link">Team</a>
+      <div class="nav-sub">
+        <a href="webamsa.html#division" class="nav-link active">Division</a>
+        <button class="sub-toggle" type="button" aria-label="Show division list" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+        <div class="sub-menu">
+          <div class="sub-menu-inner">
+            <p class="sub-title">Choose a Division</p>
+          <a href="divisi.html?d=anr" class="sub-link" data-div="anr">
+            <img src="assets/gambar/anr.jpeg" alt="">
+            <span><strong>Academic &amp; Research</strong><small>AnR</small></span>
+          </a>
+          <a href="divisi.html?d=mnd" class="sub-link" data-div="mnd">
+            <img src="assets/gambar/WhatsApp Image 2026-04-30 at 23.35.49.jpeg" alt="">
+            <span><strong>Member &amp; Development</strong><small>MnD</small></span>
+          </a>
+          <a href="divisi.html?d=co" class="sub-link" data-div="co">
+            <img src="assets/gambar/co.jpeg" alt="">
+            <span><strong>Community Outreach</strong><small>CO</small></span>
+          </a>
+          <a href="divisi.html?d=ea" class="sub-link" data-div="ea">
+            <img src="assets/gambar/ea.jpeg" alt="">
+            <span><strong>External Affairs</strong><small>EA</small></span>
+          </a>
+          <a href="divisi.html?d=pnp" class="sub-link" data-div="pnp">
+            <img src="assets/gambar/pnp.jpeg" alt="">
+            <span><strong>Publication &amp; Promotion</strong><small>PnP</small></span>
+          </a>
+          <a href="divisi.html?d=fnp" class="sub-link" data-div="fnp">
+            <img src="assets/gambar/fnp.jpeg" alt="">
+            <span><strong>Finance &amp; Partnership</strong><small>FnP</small></span>
+          </a>
+          </div>
+        </div>
+      </div>
+      <a href="webamsa.html#event" class="nav-link">Event</a>
+      <a href="webamsa.html#location" class="nav-link">Location</a>
+      <a href="webamsa.html#join" class="nav-cta"><span>Join Us</span><i aria-hidden="true"></i></a>
+    </nav>
+
+    <!-- HAMBURGER -->
+    <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </div>
+</header>
+
+<main id="dvMain">
+
+  <!-- ================= HERO ================= -->
+  <section class="dv-hero" id="dvHero">
+    <span class="dv-orb orb-a" aria-hidden="true"></span>
+    <span class="dv-orb orb-b" aria-hidden="true"></span>
+    <span class="dv-grid" aria-hidden="true"></span>
+
+    <div class="dv-hero-inner">
+      <nav class="dv-breadcrumb" aria-label="Breadcrumb">
+        <a href="webamsa.html#home">Home</a>
+        <span>/</span>
+        <a href="webamsa.html#division">Division</a>
+        <span>/</span>
+        <strong id="dvCrumb">Division</strong>
+      </nav>
+
+      <p class="dv-eyebrow"><span id="dvCode">AnR</span> · Division of AMSA-UMP</p>
+      <h1 class="dv-title" id="dvTitle">Division</h1>
+      <p class="dv-desc" id="dvDesc"></p>
+
+      <!-- pilihan divisi -->
+      <div class="dv-tabs" id="dvTabs" role="tablist" aria-label="Choose a division"></div>
+    </div>
+
+    <a href="#dvLeader" class="dv-scroll" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ================= KETUA DIVISI ================= -->
+  <section class="dv-leader" id="dvLeader">
+    <div class="dv-section-head reveal">
+      <p class="dv-kicker">Head of Division</p>
+      <h2 class="dv-heading"><span class="spesial-name">M</span>eet the <span class="spesial-name">E</span>xecutive <span class="spesial-name">B</span>oard</h2>
+    </div>
+
+    <div class="dv-leader-card reveal" id="dvLeaderCard" tabindex="0" aria-label="Head of division">
+      <div class="dv-stage">
+        <!-- cincin gradasi berputar -->
+        <span class="dv-ring" aria-hidden="true"></span>
+        <!-- logo divisi (muncul saat hover) -->
+        <img class="dv-stage-logo" id="dvLeaderLogo" src="" alt="" aria-hidden="true">
+        <!-- partikel kecil -->
+        <span class="dv-spark s1" aria-hidden="true"></span>
+        <span class="dv-spark s2" aria-hidden="true"></span>
+        <span class="dv-spark s3" aria-hidden="true"></span>
+        <!-- foto ketua -->
+        <img class="dv-leader-photo" id="dvLeaderPhoto" src="" alt="Head of division">
+      </div>
+
+      <div class="dv-leader-info">
+        <h3 class="dv-leader-name" id="dvLeaderName">Nama Ketua</h3>
+        <p class="dv-leader-role">Head of <span id="dvLeaderDiv">Division</span></p>
+        <p class="dv-leader-quote" id="dvLeaderQuote"></p>
+      </div>
+
+      <p class="dv-leader-hint" aria-hidden="true">Hover or tap the photo</p>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM KERJA ================= -->
+  <section class="dv-proker" id="dvProker">
+    <div class="dv-section-head reveal">
+      <p class="dv-kicker">What We Do</p>
+      <h2 class="dv-heading light"><span class="spesial-name">W</span>ork <span class="spesial-name">P</span>rograms</h2>
+      <p class="dv-sub">Click a program to see its details.</p>
+    </div>
+
+    <div class="proker-list" id="prokerList"></div>
+  </section>
+
+</main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <!-- BRAND -->
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="assets/gambar/logoamsa.png" alt="Logo AMSA-UMP">
+          <div>
+            <h3>AMSA-UM Palembang</h3>
+            <span>Asian Medical Students' Association</span>
+          </div>
+        </div>
+        <p class="footer-tagline">
+          <span class="spesial-name">K</span>nowledge ·
+          <span class="spesial-name">A</span>ction ·
+          <span class="spesial-name">F</span>riendship
+        </p>
+      </div>
+
+      <!-- LINKS -->
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="webamsa.html#home">Home</a></li>
+          <li><a href="webamsa.html#about">About Us</a></li>
+          <li><a href="webamsa.html#team">Our Team</a></li>
+          <li><a href="webamsa.html#division">Division</a></li>
+          <li><a href="webamsa.html#event">Event</a></li>
+          <li><a href="webamsa.html#location">Location</a></li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Universitas Muhammadiyah Palembang</li>
+          <li><a href="mailto:amsaump@gmail.com">amsaump@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener">@amsaump</a></li>
+        </ul>
+
+        <div class="footer-social">
+          <a href="https://www.instagram.com/amsaump" target="_blank" rel="noopener" aria-label="Instagram AMSA-UMP">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+          </a>
+          <a href="mailto:amsaump@gmail.com" aria-label="Email AMSA-UMP">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 AMSA-Muhammadiyah Palembang. All rights reserved.</p>
+      <p class="footer-credit">Designed by <span>FIKRI</span></p>
+      <p class="footer-viva">Viva AMSA!</p>
+    </div>
+  </footer>
+
+  <script src="assets/divisi-data.js"></script>
+  <script src="assets/divisi.js" defer></script>
+</body>
+</html>
